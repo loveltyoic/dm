@@ -27,7 +27,7 @@ num_round = 1000
 
 threshold_ratio = 0.15
 # load in training data, directly use numpy
-data = np.loadtxt('/Users/loveltyoic/Downloads/tousu.csv', delimiter=',', skiprows=1, dtype='float' )
+data = np.loadtxt('data/tousu.csv', delimiter=',', skiprows=1, dtype='float' )
 #dtest = np.loadtxt('/home/zhli7/test.csv', delimiter=',', skiprows=1, dtype='float')
 train,test = train_test_split(data, test_size = 0.5,random_state=1225)
 train,val = train_test_split(train, test_size = 0.2,random_state=1225)

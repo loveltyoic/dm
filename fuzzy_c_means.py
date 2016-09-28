@@ -1,5 +1,5 @@
 import pandas as pd
-data = pd.read_csv("/Users/loveltyoic/Downloads/sample_speed.csv", header=0)
+data = pd.read_csv("data/speed.csv", header=0)
 import matplotlib.pylab as plt
 import skfuzzy as fuzz
 import numpy as np

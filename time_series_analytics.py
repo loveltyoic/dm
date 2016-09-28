@@ -11,7 +11,7 @@ from statsmodels.graphics.api import qqplot
 # dta.index = pd.Index(sm.tsa.datetools.dates_from_range('1700', '2008'))
 # del dta["YEAR"]
 
-data_file = file("/Users/loveltyoic/Downloads/speed.csv")
+data_file = file("data/speed.csv")
 names=['segment', 'speed', 'count', 'timestamp']
 dta = pd.read_csv(data_file, header=0,
                   names=names,
